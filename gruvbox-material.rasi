@@ -1,20 +1,19 @@
 /**
- * Gruvbox Material (Medium) theme
- * Taken from: https://user-images.githubusercontent.com/58662350/213884019-cbcd5f00-5bef-4a37-9139-0570770330b6.png
- * Repository: https://github.com/hiimsergey/rofi-gruvbox-material
+ * Kanagawa Paper theme
+ * Repository: https://github.com/dsunshi/rofi-kanagawa-paper
  */
 
 * {
-    bg0: #282828;
-    bg1: #32302f;
-    grey0: #7c6f64;
-    fg0: #d4be98;
+    bg0: #1F1F28;
+    bg1: #2A3A37;
+    grey0: #727169;
+    fg0: #DCD7BA;
 
-    blue: #7daea3;
-    red: #ea6962;
-    orange: #e78a4e;
-    green: #a9b665;
-    bgStatusline3: #504945;
+    blue: #7E9CD8;
+    red: #C34043;
+    orange: #DCA561;
+    green: #76946A;
+    bgStatusline3: #49443C;
 
     background-color: @bg0;
 }
@@ -112,4 +111,3 @@ element-text, element-icon {
 element-text .active, element-text .urgent {
     text-color: @bg0;
 }
-

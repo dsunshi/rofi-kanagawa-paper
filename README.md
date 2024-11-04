@@ -1,12 +1,12 @@
-# Gruvbox Material Rofi theme
+# 🌊 Kanagawa Paper Rofi theme
 
-A simple theme for **[rofi](https://github.com/davatorium/rofi)** based on **[Gruvbox Material](https://github.com/sainnhe/gruvbox-material)** by [@sainnhe](https://github.com/sainnhe).
+A simple theme for **[rofi](https://github.com/davatorium/rofi)** based on **[kanagawa-paper.nvim](https://github.com/sho-87/kanagawa-paper.nvim)** by [@sho-87](https://github.com/sho-87).
 
 ![](screenshot.png)
 
-## Setup
+## 📦 Setup
 
-1. Copy <a href="gruvbox-material.rasi">gruvbox-material.rasi</a> file to `~/.config/rofi/gruvbox-material.rasi`
+1. Copy <a href="kanagawa-paper.rasi">kanagawa-paper.rasi</a> file to `~/.config/rofi/kanagawa-paper.rasi`
 2. Add the following lines to your rofi config (`~/.config/rofi/config.rasi`):
 ```
 configuration {
@@ -18,5 +18,5 @@ configuration {
     show-icons:     true;
 }
 
-@theme "~/.config/rofi/gruvbox-material.rasi"
+@theme "~/.config/rofi/kanagawa-paper.rasi"
 ```
